@@ -36,7 +36,7 @@ for keyword in keywords:
 
             print("Title: " + entry.title)
             # Create a new row of data
-            new_row = {'title': entry.title, 'link': entry.link, 'description': entry.description, 'keyword': keyword, 'university': 'University of Nottingham'}
+            new_row = {'title': entry.title, 'link': entry.link, 'description': entry.description, 'keyword': keyword, 'university': university_name}
 
             # Add the new row to the DataFrame
             df = pd.concat([df, pd.DataFrame([new_row])], ignore_index=True)
