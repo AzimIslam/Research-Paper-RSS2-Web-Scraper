@@ -30,7 +30,7 @@ http://university.com/rssfeed2.xml?keywords=[keyword]
 ```
 It will then prompt for the university name which will is used to name the CSV output file.
 
-The CSV file output file will have the columns: title, link, description, keyword, university.
+The CSV output file will have the columns: title, link, description, keyword, university.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
