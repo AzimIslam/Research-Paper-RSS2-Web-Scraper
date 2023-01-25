@@ -86,5 +86,5 @@ df.drop_duplicates(keep='first', subset=['link'], inplace=True)
 # Write the new data to the CSV file
 df.to_csv(university_name.replace(" ", "_")+ '.csv', mode='w', header=True, index=False)
 
-print("Added " + str(len(df.index)-1) + " entries to the CSV file.")
+print("Added " + str(len(df.index)) + " entries to the CSV file.")
 
