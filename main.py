@@ -75,7 +75,7 @@ for key, value in paper_link_map.items():
 
     # Constructs the keyword field
     for keyword in keywords:
-        newVal += keyword + ";"
+        newVal += str(keyword) + ";"
 
     # Edits the first row of the duplicates\
     df.at[value[0], 'keyword'] = newVal
